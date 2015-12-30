@@ -8,8 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
+@class FunFacts;
+@class FactColor;
+
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *anotherFact;
+
+@property(strong, nonatomic) FunFacts *funFacts;
+
+@property(strong, nonatomic) FactColor *funColor;
+
+@property (strong, nonatomic) IBOutlet UIView *background;
+
+@property (weak, nonatomic) IBOutlet UIButton *button;
 
 @end
 

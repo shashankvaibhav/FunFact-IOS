@@ -15,6 +15,8 @@
 		18BC73051C33B55A008358C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BC73031C33B55A008358C9 /* LaunchScreen.storyboard */; };
 		18BC73101C33B55A008358C9 /* FunFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BC730F1C33B55A008358C9 /* FunFactsTests.m */; };
 		18BC731B1C33B55A008358C9 /* FunFactsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BC731A1C33B55A008358C9 /* FunFactsUITests.m */; };
+		18BC732A1C340D76008358C9 /* FunFacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BC73291C340D76008358C9 /* FunFacts.m */; };
+		18BC732D1C34343D008358C9 /* FactColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BC732C1C34343D008358C9 /* FactColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		18BC73161C33B55A008358C9 /* FunFactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BC731A1C33B55A008358C9 /* FunFactsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunFactsUITests.m; sourceTree = "<group>"; };
 		18BC731C1C33B55A008358C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BC73281C340D76008358C9 /* FunFacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunFacts.h; sourceTree = "<group>"; };
+		18BC73291C340D76008358C9 /* FunFacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunFacts.m; sourceTree = "<group>"; };
+		18BC732B1C34343D008358C9 /* FactColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactColor.h; sourceTree = "<group>"; };
+		18BC732C1C34343D008358C9 /* FactColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactColor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				18BC72F91C33B55A008358C9 /* AppDelegate.m */,
 				18BC72FB1C33B55A008358C9 /* ViewController.h */,
 				18BC72FC1C33B55A008358C9 /* ViewController.m */,
+				18BC73281C340D76008358C9 /* FunFacts.h */,
+				18BC73291C340D76008358C9 /* FunFacts.m */,
+				18BC732B1C34343D008358C9 /* FactColor.h */,
+				18BC732C1C34343D008358C9 /* FactColor.m */,
 				18BC72FE1C33B55A008358C9 /* Main.storyboard */,
 				18BC73011C33B55A008358C9 /* Assets.xcassets */,
 				18BC73031C33B55A008358C9 /* LaunchScreen.storyboard */,
@@ -273,6 +283,8 @@
 				18BC72FD1C33B55A008358C9 /* ViewController.m in Sources */,
 				18BC72FA1C33B55A008358C9 /* AppDelegate.m in Sources */,
 				18BC72F71C33B55A008358C9 /* main.m in Sources */,
+				18BC732D1C34343D008358C9 /* FactColor.m in Sources */,
+				18BC732A1C340D76008358C9 /* FunFacts.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +508,7 @@
 				18BC73211C33B55A008358C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18BC73221C33B55A008358C9 /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +517,7 @@
 				18BC73241C33B55A008358C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18BC73251C33B55A008358C9 /* Build configuration list for PBXNativeTarget "FunFactsUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +526,7 @@
 				18BC73271C33B55A008358C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
